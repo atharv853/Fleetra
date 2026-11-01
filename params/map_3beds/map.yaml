@@ -1,0 +1,8 @@
+# Copy of amazon_robot_bringup/maps/aws_warehouse/map.yaml for the 3-bed demo:
+# the 3 racks run_demo.sh deletes from Gazebo (map y -1.56, -5.07, -8.88: every other slot) are erased from the image.
+image: map_3beds.png
+resolution: 0.050000
+origin: [-7.000, -10.500000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

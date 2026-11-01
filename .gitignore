@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Fleetra specific
+logs/*.log
+*.lock
+docker/*.log
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+!logs/.gitkeep
